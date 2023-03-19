@@ -18,7 +18,7 @@ import com.dessalines.thumbkey.utils.KeyboardC
 import com.dessalines.thumbkey.utils.KeyboardMode
 import com.dessalines.thumbkey.utils.SwipeDirection
 
-val messageEaseKeyboard = KeyboardC(
+val MESSAGEEASE_EN_MAIN = KeyboardC(
     arrayOf(
         arrayOf(
             KeyItemC(
@@ -285,7 +285,7 @@ val messageEaseKeyboard = KeyboardC(
     )
 )
 
-val messageEaseKeyboardShifted = KeyboardC(
+val MESSAGEEASE_EN_SHIFTED = KeyboardC(
     arrayOf(
         arrayOf(
             KeyItemC(
@@ -553,7 +553,7 @@ val messageEaseKeyboardShifted = KeyboardC(
 )
 
 val MESSAGEEASE_KEYBOARD_MODES: Map<KeyboardMode, KeyboardC> = mapOf(
-    KeyboardMode.MAIN to messageEaseKeyboard,
-    KeyboardMode.SHIFTED to messageEaseKeyboardShifted,
-    KeyboardMode.NUMERIC to numericKeyboard
+    KeyboardMode.MAIN to MESSAGEEASE_EN_MAIN,
+    KeyboardMode.SHIFTED to MESSAGEEASE_EN_SHIFTED,
+    KeyboardMode.NUMERIC to NUMERIC_KEYBOARD
 )
