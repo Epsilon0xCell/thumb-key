@@ -315,11 +315,12 @@ val MESSAGEEASE_EN_SYMBOLS_MAIN = KeyboardC(
                         display = KeyDisplay.TextDisplay("*"),
                         action = KeyAction.CommitText("*"),
                         color = ColorVariant.MUTED
-                    )
+                    ),
                     SwipeDirection.LEFT to KeyC(
                         display = KeyDisplay.TextDisplay(","),
                         action = KeyAction.CommitText(","),
                         color = ColorVariant.MUTED
+                    )
                 )
             ),
             KeyItemC(
